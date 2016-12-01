@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96271A8B07B3D3F980E57D60 /* Pods_FAITHNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F97550D4A0073E61A2B4265 /* Pods_FAITHNews.framework */; };
+		DCFA4D441DEFD6EC00C7F44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFA4D431DEFD6EC00C7F44A /* Assets.xcassets */; };
+		DCFA4D471DEFD6EC00C7F44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFA4D451DEFD6EC00C7F44A /* LaunchScreen.storyboard */; };
+		DCFA4D561DEFD8CC00C7F44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA4D501DEFD8CC00C7F44A /* ViewController.swift */; };
+		DCFA4D571DEFD8CC00C7F44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA4D531DEFD8CC00C7F44A /* AppDelegate.swift */; };
+		DCFA4D591DEFEB9900C7F44A /* FAITHNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA4D581DEFEB9900C7F44A /* FAITHNewsModel.swift */; };
+		DCFA4D5B1DEFED1800C7F44A /* FAITHNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA4D5A1DEFED1800C7F44A /* FAITHNewsCell.swift */; };
+		DCFA4D5D1DEFF5E400C7F44A /* FAITHNetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA4D5C1DEFF5E400C7F44A /* FAITHNetWorkTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F97550D4A0073E61A2B4265 /* Pods_FAITHNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FAITHNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFA4D391DEFD6EC00C7F44A /* FAITHNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAITHNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFA4D431DEFD6EC00C7F44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCFA4D461DEFD6EC00C7F44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCFA4D481DEFD6EC00C7F44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFA4D501DEFD8CC00C7F44A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCFA4D531DEFD8CC00C7F44A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCFA4D581DEFEB9900C7F44A /* FAITHNewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAITHNewsModel.swift; sourceTree = "<group>"; };
+		DCFA4D5A1DEFED1800C7F44A /* FAITHNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAITHNewsCell.swift; sourceTree = "<group>"; };
+		DCFA4D5C1DEFF5E400C7F44A /* FAITHNetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAITHNetWorkTool.swift; sourceTree = "<group>"; };
+		E5B7720A9CE9D18D2EA7D01D /* Pods-FAITHNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAITHNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAITHNews/Pods-FAITHNews.release.xcconfig"; sourceTree = "<group>"; };
+		FDE0E26D806006B8C3884E29 /* Pods-FAITHNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAITHNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAITHNews/Pods-FAITHNews.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFA4D361DEFD6EC00C7F44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96271A8B07B3D3F980E57D60 /* Pods_FAITHNews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE694FFA53218AA3F5FF90F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F97550D4A0073E61A2B4265 /* Pods_FAITHNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E612FC6221E4ECFFB2A2B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0E26D806006B8C3884E29 /* Pods-FAITHNews.debug.xcconfig */,
+				E5B7720A9CE9D18D2EA7D01D /* Pods-FAITHNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCFA4D301DEFD6EC00C7F44A = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D3B1DEFD6EC00C7F44A /* FAITHNews */,
+				DCFA4D3A1DEFD6EC00C7F44A /* Products */,
+				4E612FC6221E4ECFFB2A2B91 /* Pods */,
+				0DE694FFA53218AA3F5FF90F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFA4D3A1DEFD6EC00C7F44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D391DEFD6EC00C7F44A /* FAITHNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFA4D3B1DEFD6EC00C7F44A /* FAITHNews */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D4E1DEFD8CC00C7F44A /* Classes */,
+				DCFA4D431DEFD6EC00C7F44A /* Assets.xcassets */,
+				DCFA4D451DEFD6EC00C7F44A /* LaunchScreen.storyboard */,
+				DCFA4D481DEFD6EC00C7F44A /* Info.plist */,
+			);
+			path = FAITHNews;
+			sourceTree = "<group>";
+		};
+		DCFA4D4E1DEFD8CC00C7F44A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D4F1DEFD8CC00C7F44A /* Controller */,
+				DCFA4D511DEFD8CC00C7F44A /* Model */,
+				DCFA4D521DEFD8CC00C7F44A /* Other */,
+				DCFA4D541DEFD8CC00C7F44A /* Tool */,
+				DCFA4D551DEFD8CC00C7F44A /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DCFA4D4F1DEFD8CC00C7F44A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D501DEFD8CC00C7F44A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCFA4D511DEFD8CC00C7F44A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D581DEFEB9900C7F44A /* FAITHNewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCFA4D521DEFD8CC00C7F44A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D531DEFD8CC00C7F44A /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DCFA4D541DEFD8CC00C7F44A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D5C1DEFF5E400C7F44A /* FAITHNetWorkTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DCFA4D551DEFD8CC00C7F44A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA4D5A1DEFED1800C7F44A /* FAITHNewsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFA4D381DEFD6EC00C7F44A /* FAITHNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFA4D4B1DEFD6EC00C7F44A /* Build configuration list for PBXNativeTarget "FAITHNews" */;
+			buildPhases = (
+				AEBA482372BAE2E4ABE77C40 /* [CP] Check Pods Manifest.lock */,
+				DCFA4D351DEFD6EC00C7F44A /* Sources */,
+				DCFA4D361DEFD6EC00C7F44A /* Frameworks */,
+				DCFA4D371DEFD6EC00C7F44A /* Resources */,
+				DCE49E4F711838F437A656AB /* [CP] Embed Pods Frameworks */,
+				C010856737122E4F723342A1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAITHNews;
+			productName = FAITHNews;
+			productReference = DCFA4D391DEFD6EC00C7F44A /* FAITHNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFA4D311DEFD6EC00C7F44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = FAITH;
+				TargetAttributes = {
+					DCFA4D381DEFD6EC00C7F44A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCFA4D341DEFD6EC00C7F44A /* Build configuration list for PBXProject "FAITHNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFA4D301DEFD6EC00C7F44A;
+			productRefGroup = DCFA4D3A1DEFD6EC00C7F44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFA4D381DEFD6EC00C7F44A /* FAITHNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFA4D371DEFD6EC00C7F44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFA4D471DEFD6EC00C7F44A /* LaunchScreen.storyboard in Resources */,
+				DCFA4D441DEFD6EC00C7F44A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEBA482372BAE2E4ABE77C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C010856737122E4F723342A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FAITHNews/Pods-FAITHNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE49E4F711838F437A656AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FAITHNews/Pods-FAITHNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFA4D351DEFD6EC00C7F44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFA4D571DEFD8CC00C7F44A /* AppDelegate.swift in Sources */,
+				DCFA4D591DEFEB9900C7F44A /* FAITHNewsModel.swift in Sources */,
+				DCFA4D561DEFD8CC00C7F44A /* ViewController.swift in Sources */,
+				DCFA4D5B1DEFED1800C7F44A /* FAITHNewsCell.swift in Sources */,
+				DCFA4D5D1DEFF5E400C7F44A /* FAITHNetWorkTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCFA4D451DEFD6EC00C7F44A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFA4D461DEFD6EC00C7F44A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFA4D491DEFD6EC00C7F44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFA4D4A1DEFD6EC00C7F44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFA4D4C1DEFD6EC00C7F44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE0E26D806006B8C3884E29 /* Pods-FAITHNews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FAITHNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = faith939339094.FAITHNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCFA4D4D1DEFD6EC00C7F44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B7720A9CE9D18D2EA7D01D /* Pods-FAITHNews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FAITHNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = faith939339094.FAITHNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFA4D341DEFD6EC00C7F44A /* Build configuration list for PBXProject "FAITHNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA4D491DEFD6EC00C7F44A /* Debug */,
+				DCFA4D4A1DEFD6EC00C7F44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFA4D4B1DEFD6EC00C7F44A /* Build configuration list for PBXNativeTarget "FAITHNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFA4D4C1DEFD6EC00C7F44A /* Debug */,
+				DCFA4D4D1DEFD6EC00C7F44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFA4D311DEFD6EC00C7F44A /* Project object */;
+}
