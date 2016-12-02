@@ -26,7 +26,9 @@ class ViewController: UITableViewController {
         self.tableView.rowHeight = 80.0
         
         loadData()
+        
     }
+
 }
 
 //设置导航控制器
@@ -84,7 +86,8 @@ extension ViewController {
     
     //每行显示什么内容
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = FAITHNewsCell(style: .default, reuseIdentifier: kNewsCellID)
+        
+        let cell = FAITHNewsCell(style: .default, reuseIdentifier: kNewsCellID) 
         
         cell.newsModel = self.newsModels[indexPath.row]
         
